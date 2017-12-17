@@ -9,6 +9,10 @@ Raw Input            |  Probs           |     Segmentation
 :---------------:|:--------------:|:---------------:
 <img src="pics/pascal_voc.jpg" width=120 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=120  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=120  alt="Bycicle Rider Segmentation" ALIGN="Middle">
 
+## Bussiness Value
+### Vision based self driving car
+
+
 ## Data Sets to be used:
 + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 [(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
