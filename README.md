@@ -23,12 +23,18 @@ Semantic segmentation is potentially a good AI solution to Falut/Horizon picking
 The challenges ahead: 1. Data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Current best practice for segmantic segmentation. This capstone project can be served as an assessment on the current best practices publically available. 
 
 ### 2. Infering knowledge from imagery: In general
-Self Driving Car     |  Identify object from satellite imagery          
+Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
 :---------------:|:--------------:
-<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />
+<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg
+" width="300" />
 
 
 ## Data Sets to be used:
 + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 [(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
 + [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017) (optional)
+
+
+## Reference:
+[The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
+[Hands Deep in Deep Learning for Hand Pose Estimation](https://arxiv.org/pdf/1502.06807.pdf)
