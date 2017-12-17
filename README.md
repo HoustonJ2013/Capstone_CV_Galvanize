@@ -7,7 +7,9 @@ Semantic segmentation is the frontier of computer image recognition, which under
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](pics/pascal_voc.jpg)  |  ![](pics/pascal_voc.jpg)
+![]<img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
+<br><br>  |  ![]<img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
+<br><br>
 
 <img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
 <br><br>
