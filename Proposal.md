@@ -28,16 +28,17 @@ Self Driving Car     |  Identify object from satellite imagery |  Human Machine 
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
 
 
-## To do-list
+## Timeline and To do-list
 ### Define problem 
 Given an image, we train a Deep Learning model to identify the object in the image on pixel level. The training data sets are ADE20K. 
+
 
 ### Metrics 
 To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
 
 
 ### Literature study and model selection
-[review](## Reference:)
+[review](##reference:)
 
 
 ### Define pro-processing 
