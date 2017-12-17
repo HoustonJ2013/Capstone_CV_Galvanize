@@ -10,7 +10,7 @@ Raw Input            |  Probs           |     Segmentation
 <img src="pics/pascal_voc.jpg" width=120 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=120  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=120  alt="Bycicle Rider Segmentation" ALIGN="Middle">
 
 ## Bussiness Value 
-### 1. Oil and Gas E&P : Seismic Automatic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
+### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
 <img src="/pics/Seismic_fault_horizon_picking.jpg" width="500" ALIGN="Right"> 
 
 
