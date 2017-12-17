@@ -5,14 +5,10 @@
 Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
 
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![]<img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
-<br><br>  |  ![]<img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
-<br><br>
-
-<img src="pics/pascal_voc.jpg" height=25%  width=10%  alt="Bycicle Rider" ALIGN="Middle">
-<br><br>
+Raw Input            |  Probs           |     Segmentation
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="pics/pascal_voc.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">
+| <img src="pics/pascal_voc_probs.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">| <img src="pics/pascal_voc_seg.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">
 
 
 ## Data Sets to be used:
