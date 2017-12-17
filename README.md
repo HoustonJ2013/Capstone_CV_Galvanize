@@ -24,9 +24,8 @@ The challenges ahead: 1. Data sets: most of the interpreted data sets are propri
 
 ### 2. Infering knowledge from imagery: In general
 Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
-:---------------:|:--------------:
-<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg
-" width="300" />
+:---------------:|:--------------:|:--------------:
+<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
 
 
 ## Data Sets to be used:
