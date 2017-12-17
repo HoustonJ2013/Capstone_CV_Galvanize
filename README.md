@@ -10,7 +10,13 @@ Raw Input            |  Probs           |     Segmentation
 <img src="pics/pascal_voc.jpg" width=120 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=120  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=120  alt="Bycicle Rider Segmentation" ALIGN="Middle">
 
 ## Bussiness Value
-### Vision based self driving car
+### 1. Vision based self driving car
+ 
+### 2. Oil and Gas E&P : Automatic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking 
+
+### 3. Object identification in imagery
+
+
 
 
 ## Data Sets to be used:
