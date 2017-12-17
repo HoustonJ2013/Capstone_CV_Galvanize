@@ -43,7 +43,12 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 ### Define pro-processing 
 Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the model to be better generalized. The draw back is we loose some information in the original image, but we are still able to identify the objects from the images. 
 
+I will use the benchmark model to justify the change of the scale, and how much it impacts on the performance. 
+
 Conversion method TBD. Put a converted image here. 
+
+### Potential challenges
+This grayscale conversion may lead to modification of the model code and re-train the model, which could be expensive and time consuming. The performance may change due to the gray scale conversion. A good practice though. 
 
 ### Train models and analysis
 
