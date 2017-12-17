@@ -1,4 +1,4 @@
-# Capstone Project: Pixel-level Object Dectection 
+# Capstone Project Proposal: Pixel-level Object Dectection 
 ## Semantic Segmentation: State of art
 
 
