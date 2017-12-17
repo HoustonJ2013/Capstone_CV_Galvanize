@@ -40,6 +40,10 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 ### Literature study and model selection
 -[review](##reference)
 
+### EDA 
+[(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
+
+
 ### Define pro-processing 
 Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the model to be better generalized. The draw back is we loose some information in the original image, but we are still able to identify the objects from the images. 
 
@@ -59,7 +63,6 @@ This grayscale conversion may lead to modification of the model code and re-trai
 
 ## Data Sets to be used
 + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
-[(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
 + [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017) (Supplementary)
 
 
