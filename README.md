@@ -22,11 +22,10 @@ Semantic segmentation is potentially a good AI solution to Falut/Horizon picking
 
 The challenges ahead: 1. Data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Current best practice for segmantic segmentation. This capstone project can be served as an assessment on the current best practices publically available. 
 
-### 2. Infering knowledge from imagery: self driving car
-<p float="left">
-  <img src="pics/self_driving_car2.jpg" width="200" />
-  <img src="pics/Satellite_image_and_land_cover.png" width="200" />
-</p>
+### 2. Infering knowledge from imagery: In general
+Self Driving Car     |  Identify object from satellite imagery          
+:---------------:|:--------------:
+<img src="pics/self_driving_car2.jpg" width="200" />|<img src="pics/Satellite_image_and_land_cover.png" width="200" />
 
 
 ## Data Sets to be used:
