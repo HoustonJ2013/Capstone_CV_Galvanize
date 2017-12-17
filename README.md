@@ -7,8 +7,7 @@ Semantic segmentation is the frontier of computer image recognition, which under
 
 Raw Input            |  Probs           |     Segmentation
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="pics/pascal_voc.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">
-| <img src="pics/pascal_voc_probs.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">| <img src="pics/pascal_voc_seg.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">
+<img src="pics/pascal_voc.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" height=30%  width=12%  alt="Bycicle Rider" ALIGN="Middle">
 
 
 ## Data Sets to be used:
