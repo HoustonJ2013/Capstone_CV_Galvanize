@@ -9,10 +9,8 @@ Raw Input            |  Probs           |     Segmentation
 :---------------:|:--------------:|:---------------:
 <img src="pics/pascal_voc.jpg" width=120 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=120  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=120  alt="Bycicle Rider Segmentation" ALIGN="Middle">
 
-## Bussiness Value
-### 1. Vision based self driving car
- 
-### 2. Oil and Gas E&P : Seismic Automatic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
+## Bussiness Value 
+### 1. Oil and Gas E&P : Seismic Automatic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
 <img src="/pics/Seismic_fault_horizon_picking.jpg" width="500" ALIGN="Right"> 
 
 
@@ -24,7 +22,11 @@ Semantic segmentation is potentially a good AI solution to Falut/Horizon picking
 
 The challenges ahead: 1. Data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Current best practice for segmantic segmentation. This capstone project can be served as an assessment on the current best practices publically available. 
 
-### 3. Object identification in imagery
+### 2. Infering knowledge from imagery: self driving car
+<p float="left">
+  <img src="pics/self_driving_car2.jpg" width="200" />
+  <img src="pics/Satellite_image_and_land_cover.png" width="200" />
+</p>
 
 
 ## Data Sets to be used:
