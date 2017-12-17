@@ -14,6 +14,16 @@ Raw Input            |  Probs           |     Segmentation
  
 ### 2. Oil and Gas E&P : Automatic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking 
 
+<p float="left">
+  <img src="/pics/petroleum-environmental-biotechnology-Seismic-showing-well-7-284-g004.png" width="100" />
+  <img src="/pics/Seismic_fault_horizon_picking.jpg" width="100" /> 
+</p>
+
+
+Interpreting faults is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.
+
+
+
 ### 3. Object identification in imagery
 
 
