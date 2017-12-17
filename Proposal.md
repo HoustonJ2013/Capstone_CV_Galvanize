@@ -38,7 +38,7 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 
 
 ### Literature study and model selection
-[review](##reference:)
+[review](##reference)
 
 
 ### Define pro-processing 
@@ -53,13 +53,13 @@ Conversion method TBD. Put a converted image here.
 ### Conclusion and demo
 
 
-## Data Sets to be used:
+## Data Sets to be used
 + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 [(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
 + [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017) (Supplementary)
 
 
-## Reference:
+## Reference
 + [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://arxiv.org/pdf/1604.01685.pdf)
 + [Hands Deep in Deep Learning for Hand Pose Estimation](https://arxiv.org/pdf/1502.06807.pdf)
 + [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
