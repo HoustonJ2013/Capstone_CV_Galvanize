@@ -37,8 +37,17 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 
 
 ### Literature study and model selection
+[review](## Reference:)
+
+
+### Define pro-processing 
+Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the model to be better generalized. The draw back is we loose some information in the original image, but we are still able to identify the objects from the images. 
+
+Conversion method TBD. Put a converted image here. 
 
 ### Train models and analysis
+
+
 
 ### Conclusion and demo
 
