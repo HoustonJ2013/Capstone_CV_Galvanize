@@ -1,13 +1,13 @@
 # Capstone Project Proposal: Pixel-level Object Dectection 
 ## Semantic Segmentation: State of art
 
-
 Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
 
 Raw Input            |  Probs           |     Segmentation
 :---------------:|:--------------:|:---------------:
 <img src="pics/pascal_voc.jpg" width=150 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=150  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=150  alt="Bycicle Rider Segmentation" ALIGN="Middle">
 
+In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/), which is used as a benchmark for [MIT Scene Parsing competetion (2017)](http://sceneparsing.csail.mit.edu/). The ADE20k data set contains more than 20K scene-centric images exhaustively annotated with objects and object parts. Specifically, the benchmark is divided into 20K images for training, 2K images for validation, and another batch of held-out images for testing. MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
 ## Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
@@ -28,10 +28,20 @@ Self Driving Car     |  Identify object from satellite imagery |  Human Machine 
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
 
 
+## Project workflows
+### Define problem and measuring metrics
+
+### Literature study and model selection
+
+### Training models and analysis
+
+### Conclusion and demo
+
+
 ## Data Sets to be used:
 + [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
 [(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
-+ [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017) (optional)
++ [COCO 2017 Stuff Segmentation Challenge](http://cocodataset.org/#stuff-challenge2017) (Supplementary)
 
 
 ## Reference:
