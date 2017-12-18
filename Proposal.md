@@ -1,5 +1,4 @@
 # Capstone Project Proposal: Pixel-level Object Dectection 
-## Semantic Segmentation: State of Art
 
 ## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
@@ -22,6 +21,7 @@ Self Driving Car     |  Identify object from satellite imagery |  Human Machine 
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
 
 
+## Semantic Segmentation: State of Art
 
 Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
 
