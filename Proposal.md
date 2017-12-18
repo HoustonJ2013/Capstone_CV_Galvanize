@@ -15,7 +15,7 @@ The challenges ahead: 1. Data sets: most of the interpreted data sets are propri
 
 This capstone project can be served as an assessment on the state-of-art algorithms publically available. 
 
-### 2. Infering knowledge from imagery: In general
+### 2. Other applications : Infering knowledge from imagery
 Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
 :---------------:|:--------------:|:--------------:
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
