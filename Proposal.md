@@ -1,18 +1,9 @@
 # Capstone Project Proposal: Pixel-level Object Dectection 
 ## Semantic Segmentation: State of Art
 
-Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
-
-Raw Input            |  Predicted probability     |     Segmentation
-:---------------:|:--------------:|:---------------:
-<img src="pics/pascal_voc.jpg" width=150 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=150  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=150  alt="Bycicle Rider Segmentation" ALIGN="Middle">
-
-In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/), which is used as a benchmark for [MIT Scene Parsing competetion (2017)](http://sceneparsing.csail.mit.edu/). The ADE20k data set contains more than 20K scene-centric images exhaustively annotated with objects and object parts. Specifically, the benchmark is divided into 20K images for training, 2K images for validation, and another batch of held-out images for testing. MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
-
-## Bussiness Value 
+## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
 <img src="/pics/Seismic_fault_horizon_picking.jpg" width="500" ALIGN="Right"> 
-
 
 Interpreting faults is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.There are many [state-of-art solutions](https://www.cgg.com/en/What-We-Do/GeoSoftware/Advanced-Seismic-Interpretation/Automated-Fault-Extraction) to speed up the process, these solutions fall in the region of feature engineering and hard to generalize. The current best solution is still on hand-picking or semi-hand-picking by human experts. 
 
@@ -29,6 +20,16 @@ This capstone project can be served as an assessment on the state-of-art algorit
 Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
 :---------------:|:--------------:|:--------------:
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
+
+
+
+Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
+
+Raw Input            |  Predicted probability     |     Segmentation
+:---------------:|:--------------:|:---------------:
+<img src="pics/pascal_voc.jpg" width=150 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=150  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=150  alt="Bycicle Rider Segmentation" ALIGN="Middle">
+
+In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/), which is used as a benchmark for [MIT Scene Parsing competetion (2017)](http://sceneparsing.csail.mit.edu/). The ADE20k data set contains more than 20K scene-centric images exhaustively annotated with objects and object parts. Specifically, the benchmark is divided into 20K images for training, 2K images for validation, and another batch of held-out images for testing. MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
 
 ## Timeline and To do-list
