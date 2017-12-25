@@ -54,7 +54,7 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 ### Pre-processing 
 Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the conclusion to be better generalized. [Gleam algorithm was found to be almost always the top performer for face and object recognition.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029740#s3) Gleam method uses standard gamma correction on RGB channels, and takes the mean of the corrected RGB channels as grayscale intensity.  
 
-  <img src="/pics/gleam_equation.png" width="200" ALIGN="center">  where <img src="/pics/R'.PNG" width="20" ALIGN="center"><img src="/pics/G'.PNG" width="20" ALIGN="center"><img src="/pics/B'.PNG" width="20" ALIGN="center"> are gamma corrected RGB channels. 
+  <img src="/pics/gleam_equation.png" width="200" ALIGN="center">  where <img src="/pics/R'.PNG" width="15" ALIGN="center"><img src="/pics/G'.PNG" width="12" ALIGN="center"><img src="/pics/B'.PNG" width="12" ALIGN="center"> are gamma corrected RGB channels. 
 
 
 I used the MIT [benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch) to justify the change of the color scale, and how much it impacts on the performance. 
