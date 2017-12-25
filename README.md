@@ -51,12 +51,12 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 [(Data QC Randomly selected 40 pic and target and put them togglable in PPT)](https://github.com/HoustonJ2013/Capstone_CV_Galvanize/blob/master/ppts/QC_Dec_12.pptx)
 
 
-### Define pro-processing 
-Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the model to be better generalized. The draw back is we loose some information in the original image, but we are still able to identify the objects from the images. 
+### Pre-processing 
+Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the conclusion to be better generalized. The draw back is we loose some information in the original image, but we are still able to identify the objects from the images. 
 
-I will use the benchmark model to justify the change of the scale, and how much it impacts on the performance. 
+Gleam algorithm was found to be almost always the top performer for face and object recognition. 
 
-Conversion method TBD. Put a converted image here. 
+I used the MIT [benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch) to justify the change of the color scale, and how much it impacts on the performance. 
 
 ### Potential challenges
 This grayscale conversion may lead to modification of the model code and re-train the model, which could be expensive and time consuming. The performance may change due to the gray scale conversion. A good practice though. 
@@ -79,3 +79,5 @@ This grayscale conversion may lead to modification of the model code and re-trai
 + [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
 + [Scene Parsing through ADE20K Dataset. Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso and Antonio Torralba. Computer Vision and Pattern Recognition (CVPR), 2017.](http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)
 + [Semantic Understanding of Scenes through ADE20K Dataset. Bolei Zhou, Hang Zhao, Xavier Puig, Sanja Fidler, Adela Barriuso and Antonio Torralba. arXiv:1608.05442.](https://arxiv.org/pdf/1608.05442.pdf)
++ [Color-to-Grayscale: Does the Method Matter in Image Recognition?](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029740#s3)
+
