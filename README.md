@@ -1,4 +1,4 @@
-# Toward Automatic Seismic Interpretation: Pixel-level Object Dectection 
+# Toward Automatic Seismic Image Interpretation: Pixel-level Object Dectection 
 
 ## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
@@ -10,15 +10,14 @@ Where to drill and when to drill is one of the most important items on stake hol
 Interpreting faults in seismic image is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.There are many [state-of-art solutions](https://www.cgg.com/en/What-We-Do/GeoSoftware/Advanced-Seismic-Interpretation/Automated-Fault-Extraction) to speed up the process, these solutions fall in the region of feature engineering and hard to generalize. The current best solution is still on hand-picking or semi-hand-picking by human experts. 
 
 
-Semantic segmentation is potentially a good AI solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, and the pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block...) 3. High-stake: I can't elaborate more of how high the stakes are. 
+Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 3. High-stake: I can't elaborate more of how high the stakes are in projects such as well drilling plan, self-driving car... 
 
-
-The challenges ahead: 1. Data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Current best practice for segmantic segmentation. 
+The challenges for a sucessful automatic seismic interpretation project: 1. Lack of public data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Segmantic segmentation algorithm is still an active research areas in computer vision, and what is the best practice. 
 
 
 This capstone project can be served as an assessment on the state-of-art algorithms public available. 
 
-### 2. Other applications : Infering knowledge from imagery
+### 2. Other applications of this project: Infering knowledge from imagery
 Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
 :---------------:|:--------------:|:--------------:
 <img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
