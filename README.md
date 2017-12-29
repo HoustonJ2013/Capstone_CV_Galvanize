@@ -1,4 +1,4 @@
-# Capstone Project Proposal: Pixel-level Object Dectection 
+# Toward Automatic Seismic Interpretation: Pixel-level Object Dectection 
 
 ## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
