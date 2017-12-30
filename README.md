@@ -16,13 +16,12 @@ Why deep learning? [Deep learning](https://en.wikipedia.org/wiki/Deep_learning) 
 The challenges for a sucessful deep learning project are datasets and algorithms. For seismic interpretation, most of the interpreted data sets are proprietary assets of big oil companies, and it is not publicly available to deep learning community. The deep learning research in seismic exploration community is sitll in the early stage, and because of the uniqueness of the seismic interpretation, there is still no concensus which algorithm has good/best performance. 
 
 
-Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
-
 Seismic Interpretation            |  Semantic Segmentation     
 :---------------:|:--------------:
 <img src="pics/Seismic_interpretation.jpg" width=350 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/Semantic_segmentation.jpg" width=450  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">
 
 
+Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
 
 In this capstone project, I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
