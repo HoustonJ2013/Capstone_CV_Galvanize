@@ -20,7 +20,7 @@ Semantic segmentation is potentially a good Deep Learning solution to Falut/Hori
 
 Seismic Interpretation            |  Semantic Segmentation     
 :---------------:|:--------------:
-<img src="pics/Seismic_interpretation.jpg" width=250 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/Semantic_segmentation.jpg" width=250  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">
+<img src="pics/Seismic_interpretation.jpg" width=350 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/Semantic_segmentation.jpg" width=450  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">
 
 
 
