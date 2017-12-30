@@ -21,7 +21,7 @@ Seismic Interpretation            |  Semantic Segmentation
 <img src="pics/Seismic_interpretation.jpg" width=350 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/Semantic_segmentation.jpg" width=450  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">
 
 
-[Semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation) is potentially a good Deep Learning solution to seismic Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
+[Semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation) is potentially a good Deep Learning solution to seismic Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
 
 In this capstone project, I will focus on the algorithm part of the deep learning challenges. I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
