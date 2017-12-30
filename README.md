@@ -10,7 +10,7 @@ Where to drill and when to drill is one of the most important items on stake hol
 Interpreting faults in seismic image is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.There are many [state-of-art solutions](https://www.cgg.com/en/What-We-Do/GeoSoftware/Advanced-Seismic-Interpretation/Automated-Fault-Extraction) to speed up the process, these solutions fall in the region of feature engineering and hard to generalize. The current best practice is still semi-automatic or hand-picking by human experts.
 
 
-Why deep learning? Deep learning provides a paradigm for a true automatic seismic interpretation. Unlike traditionaly feature engineering, deep learning integrates informations from all the legacy interpreted projects and learns the best features that describe geological information by deeper layers. Unlike repetative hand-picking and correction from scratch in each project, it constantly improves quality by learning from new projects. 
+Why deep learning? Deep learning provides a paradigm for a true automatic seismic interpretation. Unlike traditional feature engineering, deep learning integrates information from all the legacy interpreted projects and learns the best features that describe geological information by deeper layers. Instead of repetative hand-picking and correction from scratch in each project, it constantly improves quality by learning from new projects. 
 
 
 The challenges for a sucessful deep learning project are datasets and algorithms. For seismic interpretation, most of the interpreted data sets are proprietary assets of big oil companies, and it is not publicly available to deep learning community. The deep learning research in seismic exploration community is sitll in the early stage, and because of the uniqueness of the seismic interpretation, there is still no concensus which algorithm has good/best performance. 
@@ -19,11 +19,6 @@ The challenges for a sucessful deep learning project are datasets and algorithms
 Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
 Segmantic segmentation algorithm is still an active research areas in computer vision, and what is the best practice. This capstone project can be served as an assessment on the state-of-art algorithms public available. 
-
-### 2. Other applications of this project: Infering knowledge from imagery
-Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
-:---------------:|:--------------:|:--------------:
-<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
 
 
 ## Semantic Segmentation: State of Art
