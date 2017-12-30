@@ -32,6 +32,7 @@ In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/da
 
 
 <img src="pics/frame_rjob6ak7h3ivflyt.jpg" width=400 alt="Image Raw" ALIGN="Middle">|<img src="pics/frame_rjob6ak7h3ivflyt_seg.png" width=400  alt="Annotations" ALIGN="Middle">
+:---------------:|:--------------:
 Raw Images  |  Annotation
 
 
