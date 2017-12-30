@@ -26,7 +26,7 @@ Seismic Interpretation            |  Semantic Segmentation
 
 In this capstone project, I will focus on the algorithm part of the deep learning challenges. I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
 
-## 
+## Data Set and Resources
 
 In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/), which is used as a benchmark for [MIT Scene Parsing competetion (2017)](http://sceneparsing.csail.mit.edu/). The ADE20k data set contains more than 20K scene-centric images exhaustively annotated with objects and object parts. Specifically, the benchmark is divided into 20K images for training, 2K images for validation, and another batch of held-out images for testing. MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
