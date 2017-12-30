@@ -21,19 +21,12 @@ Seismic Interpretation            |  Semantic Segmentation
 <img src="pics/Seismic_interpretation.jpg" width=350 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/Semantic_segmentation.jpg" width=450  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">
 
 
-Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
+[Semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation) is potentially a good Deep Learning solution to seismic Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
 
-In this capstone project, I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
+In this capstone project, I will focus on the algorithm part of the deep learning challenges. I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
 
-
-## Semantic Segmentation: State of Art
-
-Semantic segmentation is the frontier of computer image recognition, which understand an image at pixel level. In segmantic segmentation, we will need to achieve three tasks: 1. recognize the objects; 2. delineate the boundary of each object; 3. Assign each pixel in the image an object class.
-
-Raw Input            |  Predicted probability     |     Segmentation
-:---------------:|:--------------:|:---------------:
-<img src="pics/pascal_voc.jpg" width=150 alt="Bycicle Rider Raw" ALIGN="Middle">|<img src="pics/pascal_voc_probs.jpg" width=150  alt="Bycicle Rider Predicted Probability" ALIGN="Middle">|<img src="pics/pascal_voc_seg.jpg" width=150  alt="Bycicle Rider Segmentation" ALIGN="Middle">
+## 
 
 In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/datasets/ADE20K/), which is used as a benchmark for [MIT Scene Parsing competetion (2017)](http://sceneparsing.csail.mit.edu/). The ADE20k data set contains more than 20K scene-centric images exhaustively annotated with objects and object parts. Specifically, the benchmark is divided into 20K images for training, 2K images for validation, and another batch of held-out images for testing. MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
