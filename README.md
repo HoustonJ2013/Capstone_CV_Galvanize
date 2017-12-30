@@ -25,7 +25,7 @@ Seismic Interpretation            |  Semantic Segmentation
 
 
 
-In this capstone project, I will assess several the state-of-art algorithms for semantic segmentations that is public available. 
+In this capstone project, I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
 
 
 ## Semantic Segmentation: State of Art
