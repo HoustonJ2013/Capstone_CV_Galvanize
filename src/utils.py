@@ -5,7 +5,9 @@ from pptx.util import Inches, Pt
 from PIL import Image
 from pptx.dml.color import RGBColor
 from pptx.enum.text import MSO_ANCHOR, MSO_AUTO_SIZE,PP_ALIGN
+from scipy.misc import toimage,imsave, imread
 
+## EDA Tools
 def add_text(slide,left,top,text,fontsize=14):
     left_dis = left
     top_dis = top
@@ -59,8 +61,30 @@ def create_pptx(pptname = "test.pptx", image_list = None):
         add_4_pic_slide(prs,pic_names)
     prs.save(pptname)
 
-def jpg_image_to_array(image_path):
-    with Image.open(image_path) as image:
-        im_arr = np.fromstring(image.tobytes(), dtype=np.uint8)
-        im_arr = im_arr.reshape((image.size[1], image.size[0], 3))
-    return im_arr
+## Image pre-processing
+### Gray color conversion
+def standard_gamma_corrected(imgarray):
+    if np.max(imgarray) > 200: ## If it is a RGB with channel maximum 256
+        imgarray = imgarray/255.0
+    imgarray[:, :, 0] = imgarray[:, :, 0] ** (1 / 2.2)
+    imgarray[:, :, 1] = imgarray[:, :, 1] ** (1 / 2.2)
+    imgarray[:, :, 2] = imgarray[:, :, 2] ** (1 / 2.2)
+    return imgarray
+def gleam_rgb2gray(imgpath, imgname, output_folder = "./"):
+    imgarray = imread(imgpath)
+    if np.ndim(imgarray) == 3:
+        gc = standard_gamma_corrected(imgarray)
+        gray = 1/3. * (gc[:, :, 0] + gc[:, :, 1] + gc[:, :, 2])
+        imsave(output_folder + imgname[0:-4] + ".png", gray)
+    else:
+        imsave(output_folder + imgname[0:-4] + ".png", imgarray)
+    return gray
+def luminance_rgb2gray(imgpath, imgname, output_folder = "./"):
+    imgarray = imread(imgpath)
+    if np.ndim(imgarray) == 3:
+        gray = imgarray[:, :, 0] * 0.3 + imgarray[:, :, 1] * 0.59 + imgarray[:, :, 2] * 0.11
+        imsave(output_folder + imgname[0:-4] + ".png", gray)
+    else:
+        imsave(output_folder + imgname[0:-4] + ".png", imgarray)
+    return gray
+
