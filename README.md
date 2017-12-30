@@ -24,7 +24,7 @@ Seismic Interpretation            |  Semantic Segmentation
 [Semantic segmentation](https://en.wikipedia.org/wiki/Image_segmentation) is potentially a good Deep Learning solution to seismic Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
 
-In this capstone project, I will focus on the algorithm part of the deep learning challenges. I will assess several the state-of-art algorithms for semantic segmentations that are public available. 
+In this capstone project, I will focus on the algorithm part of the deep learning challenges. I will assess several state-of-art algorithms for semantic segmentations that are public available. 
 
 ## Data Set and Resources
 
