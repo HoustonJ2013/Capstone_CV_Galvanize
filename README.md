@@ -1,4 +1,4 @@
-# Capstone Project Proposal: Pixel-level Object Dectection 
+# Deep Learning Pixel-level Object Dectection: One Step Toward AI Seismic Interpretation:  
 
 ## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
@@ -7,21 +7,20 @@
 Where to drill and when to drill is one of the most important items on stake holder worry plate in oil and gas E&P.  A well interpreted seismic image is an important tool on the table to help answer those questions. Interpreting a seismic image requires that the interpreter manually check the seismic image and draw upon his or her geological understanding to pick the most likely interpretation from the many “valid” interpretations that the data allow. 
 
 
-Interpreting faults in seismic image is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.There are many [state-of-art solutions](https://www.cgg.com/en/What-We-Do/GeoSoftware/Advanced-Seismic-Interpretation/Automated-Fault-Extraction) to speed up the process, these solutions fall in the region of feature engineering and hard to generalize. The current best solution is still on hand-picking or semi-hand-picking by human experts. 
+Interpreting faults in seismic image is difficult and tedious, especially in complex, highly faulted formations. Faults can be difficult to pick if they are steeply dipping, or if they are aligned such that they are not easily visible on Inlines or Crosslines. Inaccurate and incomplete interpretations often lead to missed pay, inefficient field development, miscorrelations, drilling hazards – and ultimately dry holes.There are many [state-of-art solutions](https://www.cgg.com/en/What-We-Do/GeoSoftware/Advanced-Seismic-Interpretation/Automated-Fault-Extraction) to speed up the process, these solutions fall in the region of feature engineering and hard to generalize. The current best practice is still semi-automatic or hand-picking by human experts.
 
 
-Semantic segmentation is potentially a good AI solution to Falut/Horizon picking and iterpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, and the pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block...) 3. High-stake: I can't elaborate more of how high the stakes are. 
+Why deep learning? [Deep learning](https://en.wikipedia.org/wiki/Deep_learning) provides a paradigm for a true automatic seismic interpretation. Unlike traditional feature engineering, deep learning integrates information from all the legacy interpreted projects and learns the best features that describe geological information in its deeper layers. Instead of repetative hand-picking and correction from scratch in each project, it constantly improves quality by learning from new projects. 
 
 
-The challenges ahead: 1. Data sets: most of the interpreted data sets are proprietary assets of big oil companies, and those data sets are not regularized for Deep learning training purose.  2. Algorithms: Current best practice for segmantic segmentation. 
+The challenges for a sucessful deep learning project are datasets and algorithms. For seismic interpretation, most of the interpreted data sets are proprietary assets of big oil companies, and it is not publicly available to deep learning community. The deep learning research in seismic exploration community is sitll in the early stage, and because of the uniqueness of the seismic interpretation, there is still no concensus which algorithm has good/best performance. 
 
 
-This capstone project can be served as an assessment on the state-of-art algorithms publically available. 
+Semantic segmentation is potentially a good Deep Learning solution to Falut/Horizon picking and interpretation as they share many common challenges: 1. Pixel level accuracy: the effective pixel size in a subsurface seismic image could be ~ 25 m x 25 m and a borehole could be ~ 20-30 inches, in this context pixel level accuracy makes a big difference when deciding where to drill a well. 2. Pixel level classification: in semantic segmentation, we identify each pixel as car, pedestrain and in seismic fault/horizon interpretation, we identify pixel as layers between Petrel and Oligocence or in a Fault block... 
 
-### 2. Other applications : Infering knowledge from imagery
-Self Driving Car     |  Identify object from satellite imagery |  Human Machine Interaction         
-:---------------:|:--------------:|:--------------:
-<img src="pics/self_driving_car2.jpg" width="300" />|<img src="pics/Satellite_image_and_land_cover.png" width="300" />|<img src="pics/human_machine_iteraction.jpg" width="300" />
+
+
+In this capstone project, I will assess several the state-of-art algorithms for semantic segmentations that is public available. 
 
 
 ## Semantic Segmentation: State of Art
@@ -52,8 +51,9 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 
 
 ### Pre-processing 
-Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the conclusion to be better generalized. [Gleam algorithm was found to be almost always the top performer for face and object recognition.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029740#s3) Gleam method uses standard gamma correction on RGB channels, and takes the mean of the corrected RGB channels as grayscale intensity.  
+Seismic images only have one value in a pixel, compared to the RGB in the training data sets. In this project, I convert the RGB colored images to grayscale images in order for the conclusion to be better generalized. [Gleam algorithm was found to be almost always the top performer for face and object recognition.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029740#s3) Gleam method uses standard [gamma correction](https://en.wikipedia.org/wiki/Gamma_correction) on RGB channels, and takes the mean of the corrected RGB channels as grayscale intensity.  
 
+  <img src="/pics/gleam_equation.png" width="200" ALIGN="center">  where <img src="/pics/R'.PNG" width="15" ALIGN="center"><img src="/pics/G'.PNG" width="12" ALIGN="center"><img src="/pics/B'.PNG" width="12" ALIGN="center"> are gamma corrected RGB channels. 
 
 
 I used the MIT [benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch) to justify the change of the color scale, and how much it impacts on the performance. 
