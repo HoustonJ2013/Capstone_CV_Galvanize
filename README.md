@@ -37,16 +37,17 @@ Raw Images  |  Annotation
 
 
 <img src="/pics/Resources.jpg" width="200" ALIGN="Right"> 
-In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). For the deep learning frameworks, I choose tensorflow and kera, and pytorch if necessary. 
+In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). 
 
 
+For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For assessing the state of arts algorithms I use tensorflow keras and pytorch depending on which model is more accessible, and for prototyping and improvement, I use keras and tensorflow. 
 
+
+## EDA and Image Preprocessing
 
 
 MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
-
-## Timeline and To do-list
 ### Define problem 
 Given an image, we train a Deep Learning model to identify the object in the image on pixel level. The training data sets are ADE20K. 
 
