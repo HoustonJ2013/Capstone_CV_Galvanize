@@ -43,7 +43,7 @@ In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/
 
      
 
-For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For for prototyping and improvement, I used keras and tensorflow, and for assessing the state of arts algorithms I used pytorch  as well, as some of the models are more accessible in pytorch.   
+For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For for model prototyping and improvement, I used keras and tensorflow, and for assessing the state of arts algorithms I used pytorch  as well, as some of the models are more accessible in pytorch.   
 
 
 MIT provides [a benchmark model in pytorch](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their scene parsing competition, which I will use as my benchmark model for model assessment.
