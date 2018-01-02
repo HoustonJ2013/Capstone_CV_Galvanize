@@ -37,9 +37,12 @@ Raw Images  |  Annotation
 
 
 <img src="/pics/Resources.jpg" width="350" ALIGN="Right"> 
+
+      
+
 In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). Both single GPUs and multiple parallel GPUs options were used depending on the model and memory requirement. 
 
-
+     
 
 For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For for prototyping and improvement, I used keras and tensorflow, and for assessing the state of arts algorithms I used pytorch  as well, as some of the models are more accessible in pytorch.   
 
