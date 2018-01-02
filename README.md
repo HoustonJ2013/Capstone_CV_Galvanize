@@ -36,9 +36,8 @@ In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/da
 Raw Images  |  Annotation
 
 
-<img src="/pics/Resources.jpg" width="350" ALIGN="Right"> 
+<img src="/pics/Resources.jpg" width="380" ALIGN="Right"> 
 
-      
 
 In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). Both single GPUs and multiple parallel GPUs options were used depending on the model and memory requirement. 
 
