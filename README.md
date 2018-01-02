@@ -49,6 +49,8 @@ For the deep learning frameworks, I choose the current most popular frameworks i
 
 ## Metrics 
 To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
+
+
 <img src="/pics/iou_equation.png" width="300" ALIGN="Center"> 
 
 
