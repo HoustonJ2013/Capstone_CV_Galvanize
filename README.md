@@ -36,11 +36,13 @@ In this project, I choose [ADE20K Dataset](http://groups.csail.mit.edu/vision/da
 Raw Images  |  Annotation
 
 
-<img src="/pics/Resources.jpg" width="400" ALIGN="Right"> 
-In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). 
+<img src="/pics/Resources.jpg" width="350" ALIGN="Right"> 
+In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/ec2/instance-types/) for my model building, because all the state of arts semantic segmentation alogrithms are built on neural networks with very deep layers, and training on the modern GPU-acclerated machines drastically speed up the model building process (> 100 times faster). Both single GPUs and multiple parallel GPUs options were used depending on the model and memory requirement. 
 
 
-For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For assessing the state of arts algorithms I use tensorflow keras and pytorch depending on which model is more accessible, and for prototyping and improvement, I use keras and tensorflow. 
+
+For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For for prototyping and improvement, I used keras and tensorflow, and for assessing the state of arts algorithms I used pytorch  as well, as some of the models are more accessible in pytorch.   
+
 
 ## Metrics 
 To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
