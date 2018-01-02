@@ -54,10 +54,10 @@ To assess performance, we use two metrics:
 
 
 (1) mean of pixel wise accuracy. 
-
+<img src="/pics/iou_equation.png" width="220" ALIGN="Right"> 
 
 (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
-<img src="/pics/iou_equation.png" width="300" ALIGN="Right"> 
+
 
 
 ## EDA and Image Preprocessing
