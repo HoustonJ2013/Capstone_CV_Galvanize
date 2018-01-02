@@ -46,8 +46,13 @@ In my capstone project, I choose [AWS EC2 GPU instances](https://aws.amazon.com/
 For the deep learning frameworks, I choose the current most popular frameworks including tensorflow, keras and pytorch. For for prototyping and improvement, I used keras and tensorflow, and for assessing the state of arts algorithms I used pytorch  as well, as some of the models are more accessible in pytorch.   
 
 
+MIT provides [a benchmark model in pytorch](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their scene parsing competition, which I will use as my benchmark model for model assessment.
+
+
 ## Metrics 
-To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
+To assess performance, we use two metrics: 
+(1) mean of pixel wise accuracy.  
+(2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
 
 
 <img src="/pics/iou_equation.png" width="300" ALIGN="Center"> 
@@ -56,11 +61,7 @@ To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) 
 ## EDA and Image Preprocessing
 
 
-MIT provides [a benchmark model](https://github.com/hangzhaomit/semantic-segmentation-pytorch/tree/e21b8e2bfb1cb145941c36468fc807f20146b71a) for their competition, which I will use as my benchmark model. 
 
-
-## Metrics 
-To assess performance, we use two metrics (1) mean of pixel wise accuracy.  (2) Mean of the standard Jaccard Index, commonly known as the PASCAL VOC intersection-over-union metric IoU=TP/TP+FP+FN, where TP, FP, and FN are the numbers of true positive, false positive, and false negative pixels, respectively, determined over the whole test set.
 
 
 ### Literature study and model selection
