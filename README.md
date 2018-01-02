@@ -71,7 +71,7 @@ Seismic images only have one value in a pixel, compared to the RGB in the traini
   <img src="/pics/gleam_equation.png" width="200" ALIGN="center">  where <img src="/pics/R'.PNG" width="15" ALIGN="center"><img src="/pics/G'.PNG" width="12" ALIGN="center"><img src="/pics/B'.PNG" width="12" ALIGN="center"> are gamma corrected RGB channels. 
   
 To convert RGB to grayscale, run the src/rgb2gray.py in this way,
-``` python
+``` 
 python rgb2gray.py  --input_folder INPUT_FOLDER --output_folder OUTPUT_FOLDER
 
 options: --method (“luminance”,”gleam“)
