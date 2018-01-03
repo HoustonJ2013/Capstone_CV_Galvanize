@@ -8,9 +8,9 @@ Work flows[Jupter Notebook]:
 
 3. Feature importance analysis
 
-4. Optimize model
+4. Business value (benifit/cost Matrix) and Optimize model
 
-5. Business value and make recommendations. 
+5. Make recommendations
 
 The summary of the results are shown in the presentation. 
 
