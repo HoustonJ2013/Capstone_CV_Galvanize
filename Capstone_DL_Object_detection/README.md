@@ -2,7 +2,7 @@
 
 ## Motivations: Bussiness Value 
 ### 1. Oil and Gas E&P : Automatic Seismic [Fault](https://en.wikipedia.org/wiki/Fault_(geology))/[Horizon](http://subsurfwiki.org/wiki/Horizon) picking and interpretation 
-<img src="/pics/Seismic_fault_horizon_picking.jpg" width="500" ALIGN="Right"> 
+<img src="./pics/Seismic_fault_horizon_picking.jpg" width="500" ALIGN="Right"> 
 
 Where to drill and when to drill is one of the most important items on stake holder worry plate in oil and gas E&P.  A well interpreted seismic image is an important tool on the table to help answer those questions. Interpreting a seismic image requires that the interpreter manually check the seismic image and draw upon his or her geological understanding to pick the most likely interpretation from the many “valid” interpretations that the data allow. 
 
